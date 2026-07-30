@@ -1,0 +1,183 @@
+<mxfile host="app.diagrams.net" agent="Copilot" version="24.8.4" pages="2">
+  <diagram id="roadmap-mvp" name="Roadmap MVP 6M">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3000" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Roadmap MVP: передача ставок в кол-центр (6 месяцев)" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="2200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Система / месяц" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="M1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="M2" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="M3" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="M4" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="M5" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="M6" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="100" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Бэк-офис ставок" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Определить источник ставок и модель данных" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Утвердить порядок публикации ставок" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="640" y="180" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Убрать ручную рассылку Excel из критического пути" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="960" y="180" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Платформа публикации ставок" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Реестр ставок и API для банка" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Экспорт файлов и публикация в SFTP" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Мониторинг, сверка, аудит публикации" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="960" y="280" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Интерфейс кол-центра банка" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Интеграция экрана ставок через API" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cfe2f3;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Пилот с операторами и rollout" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cfe2f3;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="960" y="380" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Партнерский кол-центр" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Согласовать формат файла и SFTP-доступ" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#eadcf5;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Парсер, валидация, расписание получения" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#eadcf5;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="640" y="480" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="Промышленная эксплуатация файла ставок" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#eadcf5;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="960" y="480" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Безопасность и эксплуатация" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="Шифрование, роли, аудит" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fce5cd;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Документация, runbook, обучение" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fce5cd;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="640" y="580" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="DR, наблюдаемость, поддержку в 24/7" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fce5cd;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="960" y="580" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="MVP-ready: банк видит ставки в собственном канале" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d9ead3;strokeColor=#6aa84f;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="710" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="Partner-ready: ставки уходят на внешнюю площадку через SFTP" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#eadcf5;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="710" width="420" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="roadmap-target" name="Roadmap Target 12M">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3000" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="100" />
+        <mxCell id="101" parent="100" />
+        <mxCell id="102" value="Roadmap target: годовой горизонт" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="250" y="30" width="2200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="103" value="Система / квартал" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="120" y="100" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="104" value="Q3" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="320" y="100" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="105" value="Q4" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="660" y="100" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="106" value="Q1 next" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="1000" y="100" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="107" value="Бэк-офис ставок" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="120" y="190" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="108" value="Централизованное управление ставками в банковском UI" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="101">
+          <mxGeometry x="320" y="190" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="109" value="Отказ от Excel как рабочего контура" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="101">
+          <mxGeometry x="660" y="190" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="110" value="Правила качества и контроль версий ставок" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="101">
+          <mxGeometry x="1000" y="190" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="111" value="Платформа публикации ставок" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="120" y="300" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="112" value="Один источник правды для всех потребителей" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="101">
+          <mxGeometry x="320" y="300" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="113" value="Публикация после утверждения без ручных пауз" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="101">
+          <mxGeometry x="660" y="300" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="114" value="Сверка, отчетность, расширение на новые каналы" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="101">
+          <mxGeometry x="1000" y="300" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="115" value="Интерфейс кол-центра банка" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="120" y="410" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="116" value="Единый экран ставок для операторов" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cfe2f3;strokeColor=#6c8ebf;" vertex="1" parent="101">
+          <mxGeometry x="320" y="410" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="117" value="SLA, аналитика обращений, обучение операторов" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cfe2f3;strokeColor=#6c8ebf;" vertex="1" parent="101">
+          <mxGeometry x="660" y="410" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="118" value="Переиспользование для других банковских линий консультации" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cfe2f3;strokeColor=#6c8ebf;" vertex="1" parent="101">
+          <mxGeometry x="1000" y="410" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="119" value="Партнерский кол-центр" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="120" y="520" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="120" value="Автоматическая SFTP-доставка с контрольными файлами" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#eadcf5;strokeColor=#9673a6;" vertex="1" parent="101">
+          <mxGeometry x="320" y="520" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="121" value="Повторная доставка и сверка статусов получения" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#eadcf5;strokeColor=#9673a6;" vertex="1" parent="101">
+          <mxGeometry x="660" y="520" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="122" value="Подготовка к подключению других внешних площадок" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#eadcf5;strokeColor=#9673a6;" vertex="1" parent="101">
+          <mxGeometry x="1000" y="520" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="123" value="Безопасность и эксплуатация" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="120" y="630" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="124" value="DR, мониторинг, аудит, support model" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fce5cd;strokeColor=#d79b00;" vertex="1" parent="101">
+          <mxGeometry x="320" y="630" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="125" value="Регулярные учения и контроль SLA" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fce5cd;strokeColor=#d79b00;" vertex="1" parent="101">
+          <mxGeometry x="660" y="630" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="126" value="Подготовка к следующим каналам и сервисам" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fce5cd;strokeColor=#d79b00;" vertex="1" parent="101">
+          <mxGeometry x="1000" y="630" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="127" value="Годовой target state: ставки публикуются из единого банковского контура, внутренний кол-центр работает по API, внешний — по SFTP, ручной Excel исключен." style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#d9ead3;strokeColor=#6aa84f;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="320" y="740" width="1020" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
