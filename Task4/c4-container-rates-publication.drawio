@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Copilot" version="24.8.4" pages="1">
+  <diagram id="c4-container-rates-publication" name="Container">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="2" value="C4 Container: платформа публикации ставок" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="1400" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="10" value="Платформа публикации ставок" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="1200" height="780" as="geometry" />
+        </mxCell>
+
+        <mxCell id="11" value="Rate repository" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Ingestion / rate approval adapter" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Internal API" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="180" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="File export scheduler" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="180" width="230" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="15" value="SFTP publisher" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="330" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Audit / versioning / reconciliation" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="330" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Monitoring / alerting" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="330" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Access control / encryption" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#ffffff;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="330" width="230" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="20" value="Бэк-офис ставок" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Внутренний кол-центр" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="SFTP" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#fce5cd;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Партнерский кол-центр" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="320" width="190" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="30" value="публикация ставок" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#333333;" edge="1" parent="1" source="20" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="читать ставки" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#333333;" edge="1" parent="1" source="21" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="сформировать файл" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#333333;" edge="1" parent="1" source="14" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="загрузить файл" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#333333;" edge="1" parent="1" source="15" target="22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="подтвердить получение" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#333333;" edge="1" parent="1" source="22" target="23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="40" value="Компонентный контур держит ставки, публикует их по каналам и фиксирует версии, получателей и ошибки.&lt;br&gt;Это дает банку управляемую доставку ставок без ручных писем и Excel." style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#999999;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="1260" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
